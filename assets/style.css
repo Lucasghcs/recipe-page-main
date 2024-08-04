@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+--Stone-100: hsl(30, 54%, 90%);
+--Stone-150: hsl(30, 18%, 87%);
+--Stone-600: hsl(30, 10%, 34%);
+--Stone-900: hsl(24, 5%, 18%);
+--Brown-800: hsl(14, 45%, 36%);
+--Rose-800: hsl(332, 51%, 32%);
+--Rose-50: hsl(330, 100%, 98%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100%;
+    background-color: var(--Stone-100);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: young-serif;
+    color: hsl(14, 45%, 36%);
+    }
+
+p {
+    font-size: 1.1rem;
+    font-family: Outfit;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 800px;
+    padding: 50px;
+    border-radius: 24px;
+
+}
+
+.receita h1{
+    color: hsl(0, 2%, 9%);
+    font-size: 3rem;
+    margin-top: 30px;
+}
+
+.receita img{
+    width: 700px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.receita p {
+    padding-bottom: 40px;
+}
+
+.preparacao {
+    background-color: hsl(330, 100%, 98%);
+    color: hsl(24, 5%, 18%);
+    font-family: Outfit;
+    border-radius: 12px;
+}
+
+.preparacao h1 {
+    font-family: outfit;
+    color: var(--Rose-800);
+    font-size: 1.3rem;
+    padding: 20px 0 15px 20px; 
+}
+
+.preparacao ul {
+    line-height: 35px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+
+}
+
+.preparacao li {
+    padding-left: 20px;
+}
+
+.ingrediente {
+    font-family: Outfit;
+    font-weight: 400;
+    color: var(--Stone-600);
+    padding-top: 30px;
+    border-bottom: 1px solid var(--Stone-150);
+}
+
+.ingrediente h1 {
+    padding-bottom: 15px;
+}
+
+.ingrediente ul{
+    padding-left: 30px;
+    line-height: 35px;
+    font-size: 0.9rem;
+    padding-bottom: 20px;
+}
+
+.ingrediente li {
+    padding-left: 15px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.instrucao {
+    font-family: outfit;
+    font-weight: 500;
+    color: var(--Stone-600);
+    padding-top: 30px;
+    border-bottom: 1px solid var(--Stone-150);
+}
+
+.instrucao ol {
+    font-family: outfit;
+    font-weight: 600;
+    padding-left: 25px;
+    font-size: 0.9rem;
+    padding-bottom: 20px;
+}
+
+.instrucao li {
+    padding-left: 15px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color:var(--Brown-800);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.instrucao li span {
+    font-weight: 500;
+    color: var(--Stone-600);
+}
+
+.nutricao {
+    padding-top: 30px;
+}
+
+.nutricao p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: var(--Stone-900);
+    font-weight: 500;
+}
+
+.serving-values {
+    display: flex;
+    line-height: 3;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--Stone-100);
+    font-family: outfit;
+    font-weight: 500;
+    color: var(--Stone-600);
+    width: 100%;
+  }
+
+  .serving-weights {
+    text-align: left;
+    color: var(--Brown-800);
+  }
+
+  .serving-weights span {
+    justify-content: left;
+    
+  }
+  .servings-container :last-child {
+    border-bottom: none;
+  }
+  
+
+
